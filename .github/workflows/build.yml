@@ -12,11 +12,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - board: nice_nano_v2
+          - board: nice_nano
             shield: sofle_left
-          - board: nice_nano_v2
+          - board: nice_nano
             shield: sofle_right
-          - board: nice_nano_v2
+          - board: nice_nano
             shield: settings_reset
     steps:
       - name: Checkout
